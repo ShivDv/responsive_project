@@ -1,0 +1,1 @@
+A website with dummy content to show fully responsive web design
