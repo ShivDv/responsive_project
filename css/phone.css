@@ -1,0 +1,134 @@
+/* Navbar */
+#navbar{
+    flex-direction: column;
+}
+#navbar::before{
+
+}
+
+/* Navbar: Logo and Image*/
+#logo{
+    margin: 5px 16px;
+}
+
+#logo img{
+
+}
+
+
+/* Navbar: List styling */
+#navbar ul{
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+}
+
+#navbar ul li{   
+    font-size: 0.8rem;
+}
+
+#navbar ul li a{
+    padding: 0px 10px;
+    margin: 5px 0px;
+}
+
+
+/* Home Section */
+#home-section{
+    padding: 0px 30px;
+    height: 420px;
+}
+
+#home-section::before{
+    height: 480px;
+}
+
+#home-section h1{
+
+}
+
+#home-section p{
+    font-size: 1.0rem;
+}
+
+
+/* About-section */
+#about-section{
+    margin: 0px;
+}
+#about-section .h-primary{
+    padding: 0px;
+}
+
+#about{
+    flex-direction: column;
+}
+
+#about .box{
+    margin: 10px 0px;
+}
+#about .box img{
+    height: 90px;
+}
+
+
+/* Client Section */
+#client-section{
+
+}
+#client-section::before{
+
+}
+#client{
+
+}
+
+.client-item{
+
+}
+
+#client img{
+    height: 80px;
+}
+
+
+/* Contact section */
+#contact-section{
+
+}
+
+#contact-section::before{
+
+}
+
+#contact-box{
+
+}
+
+#contact-box input, #contact-box textarea{
+    font-size: 0.85rem;
+}
+
+#contact-box form{
+    width: 75%;
+}
+
+#contact-box label{
+    font-size: 1rem;
+}
+
+
+footer{
+    font-size: 0.8rem;
+}
+
+/* Utility Classes */
+.h-primary{
+    font-size: 2.5rem;
+    padding: 10px 0px;
+}
+
+.btn{
+    font-size: 1.0rem;
+}
